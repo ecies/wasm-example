@@ -1,0 +1,36 @@
+{
+  "name": "ecies-wasm-example",
+  "version": "0.1.0",
+  "description": "ecies-wasm example usage",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecies/wasm-example.git"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm",
+    "ecies",
+    "webpack"
+  ],
+  "author": "Weiliang Li <to.be.impressive@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecies/wasm-example/issues"
+  },
+  "homepage": "https://github.com/ecies/wasm-example",
+  "dependencies": {
+    "ecies-ed25519-wasm": "^0.0.1",
+    "ecies-wasm": "^0.1.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^4.0.0-beta.0"
+  }
+}
